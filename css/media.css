@@ -1,0 +1,87 @@
+@media (max-width:1440px) {}
+@media (max-width:1320px) {}
+@media (max-width:1290px) {}
+@media (max-width:1170px) {}
+@media (max-width:1140px) {}
+@media (max-width:1024px) {}
+@media (max-width:992px) {}
+/* tab */
+@media (max-width:850px) {
+
+    .nav__item {
+        height: 100vh;
+        background: rgba(251, 242, 242, 0.501);
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 30px;
+        transform: scale(0);
+        transition: .5;
+    }
+    .nav__menyu:hover ~ .nav__item {
+        transform: scale(1);
+    } 
+    .nav__menyu {
+        min-width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        transition: .5s;
+    }
+    .nav__menyu:hover {
+        transform: scale(0);
+    }
+    .nav__menyu-line::after {
+        content: '';
+        display: block;
+        width: 100%;
+        background: var(--oreng);
+        height: 2px;
+        position: absolute;
+        top: 0;
+    }
+    .nav__menyu-line::before {
+        content: '';
+        display: block;
+        width: 100%;
+        background: var(--oreng);
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+    }
+    .nav__menyu-line {
+        width: 100%;
+        background: var(--oreng);
+        height: 2px;
+    }
+    .header__img {
+        max-width: 300px;
+        max-height: 300px;
+        position: absolute;
+        top: 30px;
+        right: 20px !important;
+    }
+    .sale__img img {
+        max-width: 300px;
+        max-height: 300px;
+        position: absolute;
+        top: -280px !important;
+        right: -30px !important;
+    }
+}
+@media (max-width:768px) {}
+/* mabail */
+@media (max-width:736px) {}
+@media (max-width:734px) {}
+@media (max-width:684px) {}
+@media (max-width:667px) {}
+@media (max-width:576px) {}
+
+@media (max-width:480px) {}
+@media (max-width:412px) {}
+@media (max-width:375px) {}
+@media (max-width:320px) {}
