@@ -27,7 +27,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
 }
 .nav__logo {
     display: flex;
@@ -72,12 +71,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
 }
 .header__imgs {
     width: 60%;
     height: 90%;
-    border: 2px solid red;
 }
 .header__img {
     width: 100%;
@@ -99,7 +96,6 @@ body {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
 }
 .header__text {
-    border: 2px solid red;
     max-width: 500px;
     font-weight: 500;
     font-size: 16px;
@@ -115,7 +111,6 @@ body {
     column-gap: 32px;
 }
 .header__btn {
-    border: 2px solid red;
     width: 135px;
     height: 61px;
     font-weight: 500;
@@ -133,7 +128,6 @@ body {
     border-radius: 6px;
 }
 .header__btns-vidio {
-    border: 2px solid red;
     display: flex;
     align-items: center;
     column-gap: 23px;
@@ -156,7 +150,6 @@ body {
 /* main start */
 .service__container {
     margin-top: 50px;
-    border: 2px solid red;
     width: 100%;
     height: 889px;
     display: flex;
@@ -165,7 +158,6 @@ body {
     justify-content: center;
 }
 .service__title {
-    border: 2px solid red;
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 42px;
@@ -173,7 +165,6 @@ body {
     color: var(--link);    
 }
 .service__text {
-    border: 2px solid red;
     width: 550px;
     height: 52px;
     font-weight: 400;
@@ -183,7 +174,6 @@ body {
     color: var(--link);    
 }
 .service__cards {
-    border: 2px solid red;
     min-width: 100%;
     margin-top: 40px;
     display: flex;
@@ -192,7 +182,6 @@ body {
     row-gap: 40px;
 }
 .service__card { 
-    border: 2px solid red;
     width: 370px;
     height: 336px;
     display: flex;
@@ -255,7 +244,6 @@ body {
     color: var(--link);
 }
 .service__card-btn {
-    border: 2px solid red;
     display: flex;
     align-items: center;
     column-gap: 5px;
@@ -274,19 +262,16 @@ body {
     margin-top: 25px !important;
 }
 .project__coontainer {
-    border: 2px solid red;
     height: 588px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .project__img {
-    border: 2px solid red;
     width: 588px;
     height: 588px;
 }
 .project__about {
-    border: 2px solid red;
     width: 582px;
     height: 331px;
     display: flex;
@@ -294,14 +279,12 @@ body {
     row-gap: 30px;
 }
 .project__about-title {
-    border: 2px solid red;
     font-weight: 700;
     font-size: 42px;
     line-height: 55px;
     color: var(--link);
 }
 .project__about-text {
-    border: 2px solid red;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -327,7 +310,6 @@ body {
 /* project end */
 /* team start */
 .team__container {
-    border: 2px solid red;
     width: 100%;
     height: 442px;
     display: flex;
@@ -337,7 +319,6 @@ body {
     margin: 100px auto 120px auto;
 }
 .team__title {
-    border: 2px solid red;
     margin: 100px 0 30px 0;
     font-weight: 700;
     font-size: 42px;
@@ -345,7 +326,6 @@ body {
     color: var(--link);    
 }
 .team__text {
-    border: 2px solid red;
     width: 550px;
     height: 52px;
     font-weight: 400;
@@ -371,7 +351,6 @@ body {
     border-radius: 34px;
 }
 .team__card-icons {
-    border: 2px solid red;
     width: 74px;
     height: 74px;
     border-radius: 50%;
@@ -382,7 +361,6 @@ body {
 .team__card-icon {
     width: 74px;
     height: 74px;
-    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -410,7 +388,6 @@ body {
 /* team end */
 /* news start */
 .news__container {
-    border: 2px solid red;
     height: 295px;
     display: flex;
     flex-direction: column;
@@ -421,7 +398,6 @@ body {
     border-radius: 34px;
 }
 .news__title {
-    border: 2px solid red;
     font-weight: 700;
     font-size: 42px;
     line-height: 55px; 
@@ -429,7 +405,6 @@ body {
     color: var(--link);
 }
 .news__text {
-    border: 2px solid red;
     margin: 13px 0 29px 0;  
     color: var(--link);
     opacity: 0.8;
@@ -439,7 +414,6 @@ body {
     text-align: center;    
 }
 .news__btn {
-    border: 2px solid red;
     width: 860px;
     height: 80px;
     display: flex;
@@ -450,7 +424,6 @@ body {
     border-radius: 70px;
 }
 .news__btn-text {
-    border: 2px solid red;
     width: 250px;
     height: 30px;
     font-weight: 400;
@@ -489,7 +462,6 @@ body {
     justify-content: space-between;
 }
 .footer__card {
-    border: 2px solid red;
     width: 178px;
     height: 200px;
 }
@@ -511,31 +483,24 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 .footer___card-iconc {
-    border: 2px solid red;
     display: flex;
     align-items: center;
     column-gap: 10px;
     margin-bottom: 10px;
 }
-.footer__card-img {
-    border: 2px solid red;
-}
 .footer__card-text {
-    border: 2px solid red;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
 }
 .footer___card-images {
-    border: 2px solid red;
     margin-top: 10px;
     display: flex;
     column-gap: 7px;
     align-items: center;
 }
 .footer___card-image {
-    border: 2px solid red;
     width: 32.2px;
     height: 32.2px;
 }
